@@ -4,34 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>LaisenPinturas Website</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    </style>
 </head>
 <body>
-    <header>
-        <h1> My site</h1>
-        <nav> link link link link link</nav>
-    </header>  
+    <header id="header">
+        <div class="logo"><a href="#" id="logo"> <img src="images/logo.png" alt="logo" width="200px"></a></div>
+        <nav class="menu" >
+            <ul>
+                <li><a href="#section1">HOME</a></li>
+                <li><a href="#section2">SERVIÇOS</a></li>
+                <li><a href="#section3">QUEM SOMOS</a></li>
+                <!--<li><a href="#section4">ÁREAS DE ATUAÇÃO</a></li>-->
+                <li><a href="#section4">CLIENTES</a></li>
+                <li><a href="#section5">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>   
     <main>
         <section>
-            <article>
-                <h2>Article 1</h2>
-                <p>Article text 1</p>
+            <article class="ctr1" id="section1">
+                <h1>Serviços de Construção com Excelência</h1>
             </article>
-            <article>
-                <h2>Article 2</h2>
-                <p>Article text 2</p>
-                <aside>
-                    Article 2 content
-                </aside>
+            <article class="ctr2" id="section2">
+                <ul>
+                    <h2>SERVIÇOS</h2>
+                    <li><img src="imagens/lacagens/lacagem1.jpg" alt="lacagem" width="300px"   height="250px">Lacagens <br><p class="buttons_saibamais"><a href="subpages/lacagens.html" rel="next">Saiba mais!</a></p></li>
+                    
+                    <li><img src="imagens/lacagens/isolamento1.jpg" alt="isolamento" width="300px" height="250px">Isolamentos <br><p class="buttons_saibamais"><a href="subpages/isolamentos.html" rel="next">Saiba mais!</a></p></li>
+
+                    <li><img src="imagens/lacagens/envernizamento1.jpg" alt="envernizamento" width="300px" height="250px">Envernizamentos<br><p class="buttons_saibamais"><a href="subpages/envernizamentos.html" rel="next">Saiba mais!</a></p></li>
+
+                    <li><img src="imagens/lacagens/pinturas1.jpg" alt="pintura" width="300px" height="250px">Pinturas<br><p class="buttons_saibamais"><a href="subpages/pinturas.html" rel="next">Saiba mais!</a></p></li>
+                </ul>
+            </article>
+            <article class="ctr3" id="section3">
+                <div class="ctr3b">
+                    <h2>QUEM SOMOS</h2>
+                    <p>Fundada em 11 de Setembro de 2001, a “Laisenpinturas, Pinturas e Acabamentos Unipessoal Lda.” iniciou a sua actividade prioritariamente, no sector das pinturas interiores, exteriores e isolamentos. Progressivamente, foi alargando o seu leque de serviços, desde envernizamentos, lacagens, a trabalhos de isolamento térmico e acústico. Actualmente, dedica-se também a pinturas intumescentes.</p>
+                    <p>Em 2005, construiu em Brunhais, um pavilhão com a função de escritório, armazém e oficina de trabalho, o que permitiu um aumento na qualidade dos serviços prestados.</p> 
+                    <p>A Laisenpinturas tem vindo assim, a progredir cada vez mais e tem vindo nestes últimos anos, a desenvolver trabalhos para as mais conceituadas empresas nacionais.</p>
+                    <p>O objectivo principal da Laisenpinturas é sem dúvida, preservar e reforçar a relação que tem com os seus clientes, mantendo a qualidade e eficiência de sempre.</p>
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Qualidade - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque itaque perferendis voluptates quaerat? Delectus voluptate quisquam maxime ex ad? Cupiditate cum asperiores quam eligendi distinctio quisquam nisi impedit ipsa.</li>
+                        <li>Compromisso - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias id numquam iste natus! Ratione ipsum enim aliquid corporis nobis! A quisquam soluta quos ad nobis, iure ducimus saepe voluptatem quaerat?</li>
+                        <li>Dedicação - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid alias debitis doloremque quisquam suscipit ex mollitia distinctio impedit necessitatibus in veniam corporis beatae, vel recusandae illo deleniti dolore sed. Magni!</li>
+                        <li>Eficiência - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repudiandae reprehenderit doloribus quibusdam! Libero quasi sapiente quaerat sequi? Illo veritatis officiis asperiores quas alias sunt corporis reprehenderit totam eveniet quia!</li>
+                    </ul>
+                </div>
+                <div class="ctr3b"><img src="imagens/pintura.jpg" alt="#" width="500px"></div>
+            </article>
+                <ul class="ctr4">
+                    <li>Ano de fundação <span>2001</span></li>
+                    <li>Colaboradores <span>21</span></li>
+                </ul>
+            </article>
+            <article> 
+                <ul class="ctr4" id="section4">
+                    <h2>CLIENTES</h2>
+                    <li>GMA - Gestão do Meio ambiente</li>
+                    <li><img src="logos/Mota-Engil.png" alt="Mota Engil Engenharia"></li>
+                    <li>Maprel</li>
+                    <li>Aenor</li>
+                    <li>Sociedade de Construções Guimar</li>
+                    <li>Construções Pedro Sanches, lda</li>
+                    <li>Ibernaves, Soluções Integradas, lda</li>
+                    <li>Luís Silva & Joaquim Melo, Construções e Engenharia, lda </li>
+                    <li>Euroflat Construções, lda</li>
+                    <li>José Matos Vieira, lda</li>
+                    <li>Rosa Construções</li>
+                    <li>Painhas, S.A.</li>
+                    <li>Anuri (Rencob)</li>
+                </ul>
+            </article>
+            <article class="ctr5" id="section5">
+                <h2>CONTACTO</h2>
+                <h3>Informações</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro ipsum animi quaerat blanditiis similique numquam sint veritatis iure. Alias officiis tempore dolore dolor placeat hic voluptatem velit unde deleniti.</p>
+                <h3>Escritório</h3>
+                <p>Laisenpinturas, Pinturas e Acabamentos Unipessoal, Lda</p>
+                <p>Rua da Capela n.º 62 – Brunhais</p>
+                <p>4830-043 Póvoa de Lanhoso</p>
+                <p>geral@laisenpinturas.pt</p>
+                <p>Tel: (+351) 962 328 885</p>
+                <p>Tel: (+351) 253 944 144</p>
             </article>
         </section>
-        <aside>
-            Main content
-        </aside>
     </main>
     <footer>
-        Footer content
+        <p>© 2021 by CSF</p>
     </footer>
 </body>
 </html>
